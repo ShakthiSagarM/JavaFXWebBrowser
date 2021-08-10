@@ -1,0 +1,10 @@
+String urlTS;
+						for(history his : l)
+						{
+							if(his.getTitle()==tab.getText()) {
+								System.out.println(his.getUrl());
+							}
+								
+						}	l = FXCollections.observableArrayList();
+history h =new history();
+									
